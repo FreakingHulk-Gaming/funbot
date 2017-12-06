@@ -1,8 +1,7 @@
 // discord constants
 d = require('discord.js');
 bot = new d.Client();
-prefix = fun
-bot.login(process.env.tok)
+prefix = "fun"
 // end
 
 //enmap shit
@@ -32,3 +31,4 @@ bot.on("ready" => {
   console.log("Bot name: " + bot.user.username)
 });
 //end
+bot.login(process.env.tok)
