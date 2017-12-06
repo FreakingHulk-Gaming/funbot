@@ -7,7 +7,6 @@
   "license": "ISC",
   "scripts": {
     "start": "node bot.js",
-    "ini": "npm install --save discord.js"
   },
   "dependencies": {
     "cleverbot-node": "^0.3.11",
