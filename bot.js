@@ -4,13 +4,6 @@ bot = new d.Client();
 prefix = "fun "
 // end
 
-//enmap shit
-const Enmap = require("enmap");
-const EnmapLevel = require("enmap-level");
-const pointProvider = new EnmapLevel({name: "points"});
-this.points = new Enmap({provider: pointProvider});
-//end
-
 //Gather commands
   bot.commands = new discord.Collection();
 
