@@ -1,7 +1,7 @@
 // discord constants
 d = require('discord.js');
 bot = new d.Client();
-prefix = "fun"
+prefix = "fun "
 // end
 
 //enmap shit
@@ -25,7 +25,7 @@ require('fs').readdir("./commands/", (err, files) => {
 
 //events
 
-bot.on("ready" => {
+bot.on("ready", () => {
   bot.user.setGame(`Funbot V1.0 Loaded | ${bot.guilds.array().length} servers`)
   console.log("Bot is started. Get ready for some sweet commands!")
   console.log("Bot name: " + bot.user.username)
