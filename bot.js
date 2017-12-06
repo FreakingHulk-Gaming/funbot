@@ -5,7 +5,7 @@ prefix = "fun "
 // end
 
 //Gather commands
-  bot.commands = new discord.Collection();
+  bot.commands = new d.Collection();
 
 require('fs').readdir("./commands/", (err, files) => {
   console.log("Loading commands...")
